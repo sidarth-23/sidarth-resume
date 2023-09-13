@@ -23,9 +23,14 @@ export default function Projects() {
           <div className="flex content-center items-center">
             <BiLogoCss3 />
           </div>
-          <h2 className=" font-medium text-lg pb-1">
+          <a
+            href="https://cuvette-testproject-1.vercel.app/"
+            rel="noreferrer"
+            target="_blank"
+            className=" font-medium text-lg pb-1 duration-150 hover:text-gray-500"
+          >
             Rock Paper Scissors Website
-          </h2>
+          </a>
         </div>
         <p className="pb-1">
           A frontend site built with vanilla JavaScript and CSS to play the game
@@ -55,7 +60,14 @@ export default function Projects() {
           <div className="flex content-center items-center">
             <AiOutlineApi />
           </div>
-          <h2 className=" font-medium text-lg pb-1">Movie Search</h2>
+          <a
+            href="https://movie-search-roan-seven.vercel.app/"
+            rel="noreferrer"
+            target="_blank"
+            className=" font-medium text-lg pb-1 duration-150 hover:text-gray-500"
+          >
+            Movie Search and Save
+          </a>
         </div>
         <p className="pb-1">
           My first attempted React and Tailwind frontend application which has a
